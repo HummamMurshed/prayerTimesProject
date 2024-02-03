@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="container">
+        <div class="city"><h1 id="city">صنعاء</h1></div>
+        <div class="date">
+          <span id="weekday">الجمعة</span>
+          <span id="day">22</span>
+          <span id="Month">رجب</span>
+          <span id="year">1445</span>
+        </div>
+        <hr />
+
+        <div class="box">
+          <div class="card">
+            <p>الفجر</p>
+            <span id="fajir">19:03</span>
+          </div>
+          <div class="card">
+            <p id="">الشروق</p>
+            <span id="shoorok">19:03</span>
+          </div>
+          <div class="card">
+            <p>الظهر</p>
+            <span id="duher">19:03</span>
+          </div>
+          <div class="card">
+            <p>العصر</p>
+            <span id="aser">19:03</span>
+          </div>
+          <div class="card">
+            <p>المغرب</p>
+            <span id="magreb">19:03</span>
+          </div>
+          <div class="card">
+            <p>العشاء</p>
+            <span id="aleshaa">19:03</span>
+          </div>
+        </div>
+
+        <select name="" id="">
+          <option value="">غير محدد</option>
+
+          <option value="مكة" id="0">مكة</option>
+          <!-- <option value="المدينة المنورة" id="1">المدينة المنورة</option> -->
+          <option value="صنعاء" id="2">صنعاء</option>
+          <option value="إب" id="3">إب</option>
+          <option value="الرياض" id="4">الرياض</option>
+        </select>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
